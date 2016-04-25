@@ -175,7 +175,7 @@ Take a few minutes to browse through the current `.js` files in your public fold
 through and set up our front end so it is actually functional!
 
 To start, you'll notice that our `mainCtrl.js` is calling a function inside of our `friendService.js` that contains a `FIX ME`. This function should post to
-your `login` endpoint, sending the `user` object we recieved from our controller.
+your `login` endpoint, sending the `user` object we received from our controller.
 
 Next we will need to fix the resolve inside of our `app.js`. This resolve should return the result of our `friendService.getFriends` method sending a 'GET'
 request to our `/api/profiles` endpoint.
